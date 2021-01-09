@@ -1,4 +1,11 @@
 import { Component } from '@angular/core';
+import { OnInit } from '@angular/core';
+
+
+import { Pokemon } from './pokemons/pokemon';
+import { POKEMONS } from './pokemons/mock-pokemons';
+
+
 
 @Component({
   selector: 'app-root',
@@ -6,5 +13,4 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.scss']
 })
 export class AppComponent {
-  title = 'pokemon';
 }
